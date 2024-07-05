@@ -10,7 +10,7 @@ namespace Module3
     {
         static void Main(string[] args)
         {
-            string myName = "Artem";
+            /*string myName = "Artem";
             byte myAge = 33;
             bool myPet = true;
             float myShoeSize = 42;
@@ -20,7 +20,11 @@ namespace Module3
             Console.WriteLine("My age is " + myAge + ".");
             Console.WriteLine("My shoe size is " + myShoeSize + ".");
 
+            Console.ReadKey();*/
 
+            Console.Write("Введите фразу \n");
+            string str = Console.ReadLine();
+            Console.WriteLine(str);
             Console.ReadKey();
         }
     }
