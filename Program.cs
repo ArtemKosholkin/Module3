@@ -10,6 +10,11 @@ namespace Module3
     {
         static void Main(string[] args)
         {
+            string myName;
+            myName = "Artem";
+
+            Console.WriteLine(myName);
+            Console.ReadKey();
         }
     }
 }
