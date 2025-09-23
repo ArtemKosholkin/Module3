@@ -29,7 +29,22 @@ namespace Module3
             //Console.WriteLine("Do I have a pet? " + myPet);
             //Console.WriteLine("My shoe size is " + myShoeSize);
 
-            Console.WriteLine("\n Для продолжения нажмите любую кнопку");
+            //Урок 3.5.
+            //string MyName = "Артем";
+            //byte MyAge = 35;
+            //Console.WriteLine("Привет, Мир!");
+            //Console.WriteLine();
+            //Console.WriteLine($"Меня зовут {MyName}");
+            //Console.WriteLine($"Мой возраст {MyAge}");
+
+            //Задание 3.5.5
+            Console.Write("Напишите что-нибудь: ");
+            string str = Console.ReadLine();
+            Console.WriteLine("Вы написали: {0}", str);
+
+            
+            Console.WriteLine();
+            Console.WriteLine("Для продолжения нажмите любую кнопку");
             Console.ReadKey();
         }
     }
