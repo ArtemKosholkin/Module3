@@ -30,6 +30,7 @@ namespace Module3
             //Console.WriteLine("My shoe size is " + myShoeSize);
 
             //Урок 3.5.
+
             //string MyName = "Артем";
             //byte MyAge = 35;
             //Console.WriteLine("Привет, Мир!");
@@ -38,11 +39,22 @@ namespace Module3
             //Console.WriteLine($"Мой возраст {MyAge}");
 
             //Задание 3.5.5
-            Console.Write("Напишите что-нибудь: ");
-            string str = Console.ReadLine();
-            Console.WriteLine("Вы написали: {0}", str);
+            //Console.Write("Напишите что-нибудь: ");
+            //string str = Console.ReadLine();
+            //Console.WriteLine("Вы написали: {0}", str);
 
-            
+            //Урок 3.6
+
+            //double result = 5.0 / 2.0;
+            //Console.WriteLine("5/2 = {0}", result);
+
+            //int counter = 10;
+            //Console.WriteLine("Value: {0} ++Increment: {1}", counter, ++counter);
+            //Console.WriteLine("Value: {0} Increment++: {1}", counter, counter++);
+
+            double result = 10 % 3;
+            Console.WriteLine(result);
+
             Console.WriteLine();
             Console.WriteLine("Для продолжения нажмите любую кнопку");
             Console.ReadKey();
