@@ -10,6 +10,30 @@ namespace Module3
     {
         static void Main(string[] args)
         {
+            //Урок 3.7
+            //int olddata = 24;
+            //string data = olddata.ToString();
+            //Console.WriteLine($"data: {data}");
+            //Console.WriteLine("olddata: {0}", olddata);
+
+            Console.Write("Введите свое имя: ");
+            string name = Console.ReadLine();
+            Console.Write("Введите свой возраст: ");
+            //int age = Convert.ToInt32(Console.ReadLine());
+            //int age = int.Parse(Console.ReadLine());
+            byte age = checked ((byte) int.Parse(Console.ReadLine()));
+            //int age;
+            //bool iscorrect = int.TryParse(Console.ReadLine(), out age);
+            Console.WriteLine("Ваше имя {0}, ваш возраст {1}", name, age);
+            Console.Write("Какой ваш любимый день недели? ");
+            DayOfWeek day = (DayOfWeek) int.Parse(Console.ReadLine());
+            Console.WriteLine("Ваш любимый день недели {0}", day);
+
+
+            Console.WriteLine();
+            Console.WriteLine("Для продолжения нажмите любую кнопку");
+            Console.ReadKey();
+
             //const string myName = "Artem";
             //Console.WriteLine(myName);
             //Console.WriteLine("\t Привет, Мир!");
@@ -52,12 +76,8 @@ namespace Module3
             //Console.WriteLine("Value: {0} ++Increment: {1}", counter, ++counter);
             //Console.WriteLine("Value: {0} Increment++: {1}", counter, counter++);
 
-            double result = 10 % 3;
-            Console.WriteLine(result);
-
-            Console.WriteLine();
-            Console.WriteLine("Для продолжения нажмите любую кнопку");
-            Console.ReadKey();
+            //double result = 10 % 3;
+            //Console.WriteLine(result);
         }
     }
     //Урок 3.4 задание 3.4.3
