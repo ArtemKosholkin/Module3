@@ -17,17 +17,23 @@ namespace Module3
             //Console.WriteLine("olddata: {0}", olddata);
 
             Console.Write("Введите свое имя: ");
-            string name = Console.ReadLine();
+            //string name = Console.ReadLine();
+            var name = Console.ReadLine();
             Console.Write("Введите свой возраст: ");
             //int age = Convert.ToInt32(Console.ReadLine());
             //int age = int.Parse(Console.ReadLine());
-            byte age = checked ((byte) int.Parse(Console.ReadLine()));
-            //int age;
+            //byte age = checked ((byte) int.Parse(Console.ReadLine()));
+            //int intage = age;
             //bool iscorrect = int.TryParse(Console.ReadLine(), out age);
+            var age = checked((byte) int.Parse(Console.ReadLine()));
             Console.WriteLine("Ваше имя {0}, ваш возраст {1}", name, age);
-            Console.Write("Какой ваш любимый день недели? ");
-            DayOfWeek day = (DayOfWeek) int.Parse(Console.ReadLine());
-            Console.WriteLine("Ваш любимый день недели {0}", day);
+            Console.Write("Введите свою дату рождения: ");
+            var birthdate = Console.ReadLine();
+            Console.WriteLine("Ваша дата рождения {0}", birthdate);
+            //Console.Write("Какой ваш любимый день недели? ");
+            ////DayOfWeek day = (DayOfWeek) int.Parse(Console.ReadLine());
+            //var day = (DayOfWeek) int.Parse(Console.ReadLine());
+            //Console.WriteLine("Ваш любимый день недели {0}", day);
 
 
             Console.WriteLine();
